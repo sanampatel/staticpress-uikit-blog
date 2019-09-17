@@ -20,9 +20,10 @@
 				</a>
 			</li>
 			<div class="uk-navbar-item">
-				<a class="uk-visible@s" style="margin-right: 4px" href="#" data-uk-icon="facebook"></a>
-				<a class="uk-visible@s" style="margin-right: 4px" href="#" data-uk-icon="twitter"></a>
-				<a class="uk-visible@s" style="margin-right: 4px" href="#" data-uk-icon="instagram"></a>
+				<a class="uk-visible@s" style="margin-right: 4px" href="{{ $settings->setting->fblink }}" data-uk-icon="facebook"></a>
+				<a class="uk-visible@s" style="margin-right: 4px" href="{{ $settings->setting->twitterlink }}" data-uk-icon="twitter"></a>
+				<a class="uk-visible@s" style="margin-right: 4px" href="{{ $settings->setting->googlepluslink }}" data-uk-icon="google-plus"></a>
+				<a class="uk-visible@s" style="margin-right: 4px" href="{{ $settings->setting->instagramlink }}" data-uk-icon="instagram"></a>
 				<a class="uk-navbar-toggle uk-hidden@m" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav"></a>
 			</div>
 		</ul>
