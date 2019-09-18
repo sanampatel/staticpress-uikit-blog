@@ -4,8 +4,7 @@
 <footer class="blog-footer uk-background-muted uk-padding-small">
 	<div class="uk-container uk-text-center">
 		<small>Made with 
-			<span class="uk-margin-small uk-margin-remove-vertical"></span>
-			<div class="heart heart-main"></div>
+			<span class="heart">&#x2665;</span>
 			Build on 
 			<a class="text-dark" href="https://tailwindcss.com/" target="_blank">
 				<span class="text-bold">Tailwindcss</span>

@@ -34,7 +34,7 @@ pagination:
 						@include('_partials.components.post-preview')
 					@endforeach					
 				</div>
-				<div class="uk-width-1-3@m">
+				<div class="uk-width-1-3@m uk-visible@m">
 					@include('_partials.sidebar')
 				</div>
 			</div>

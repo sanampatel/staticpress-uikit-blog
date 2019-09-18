@@ -18,9 +18,6 @@
 			<div>
 				{{ $settings->setting->aboutauthor }}
 			</div>
-			<div class="uk-margin-small-top">
-		        <a href="#" class="uk-button uk-button-text">Read more</a>
-		    </div>
 		</div>
 	</div>
 	{{-- About widget end --}}

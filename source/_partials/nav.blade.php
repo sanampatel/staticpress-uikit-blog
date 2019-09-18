@@ -1,6 +1,33 @@
 {{-- Navigation --}}
-<nav id="navbar" data-uk-navbar="mode: click">
-	<div class="uk-navbar-left uk-visible@m">
+
+<nav class="uk-background-default uk-hidden@m" uk-navbar id="min_nav">
+    <div class="uk-navbar-left">
+       <ul class="uk-navbar-nav">
+          <li><a class="uk-navbar-item uk-logo uk-padding-remove-left" href="https://allindiainvest.com/">
+             <h1 class="brand_logo nav_logo">All India Invest</h1>
+          </a></li>
+       </ul>
+    </div>
+    <div class="uk-navbar-right">
+       <a class="uk-navbar-toggle"></a>
+       <a class="uk-navbar-toggle uk-button" href="#offcanvas-slide" uk-toggle>
+          <span uk-navbar-toggle-icon></span> 
+          <span class="uk-margin-small-left">Menu</span>
+       </a>
+       <div id="offcanvas-slide" uk-offcanvas class="uk-hidden@m">
+          <div class="uk-offcanvas-bar">
+             <button class="uk-offcanvas-close" type="button" uk-close></button>
+             <ul class="uk-nav uk-nav-default">
+                <li><a href="./">Home</a></li>
+                <li><a href="{{ $page->mainUrl }}/contact/">Contact Us</a></li>
+             </ul>
+          </div>
+       </div>
+    </div>
+</nav>
+
+<nav id="navbar" data-uk-navbar="mode: click" class="uk-visible@m">
+	<div class="uk-navbar-left">
 		<ul class="uk-navbar-nav">
 			<li>
 				<a href="./">
