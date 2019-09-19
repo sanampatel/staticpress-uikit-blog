@@ -10,7 +10,7 @@
     <img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />
   </a> 
 
-  <img src="https://api.netlify.com/api/v1/badges/238a3d56-e173-48a4-9758-d94a96b1913e/deploy-status" alt="Netlify Status" />
+  <img src="https://api.netlify.com/api/v1/badges/e466ffbf-6e07-46ab-8905-6dc975e333eb/deploy-status" alt="Netlify Status" />
 
   <a href="https://www.buymeacoffee.com/sanam">
     <img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy me a coffee" />
