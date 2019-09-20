@@ -3,8 +3,8 @@
 <nav class="uk-background-default uk-hidden@m" uk-navbar id="min_nav">
     <div class="uk-navbar-left">
        <ul class="uk-navbar-nav">
-          <li><a class="uk-navbar-item uk-logo uk-padding-remove-left" href="https://allindiainvest.com/">
-             <h1 class="brand_logo nav_logo">All India Invest</h1>
+          <li><a class="uk-navbar-item uk-logo uk-padding-remove-left" href="{{ $page->mainUrl }}">
+             <h1 class="brand_logo nav_logo">Blog-StaticPress</h1>
           </a></li>
        </ul>
     </div>
@@ -30,7 +30,7 @@
 	<div class="uk-navbar-left">
 		<ul class="uk-navbar-nav">
 			<li>
-				<a href="./">
+				<a href="{{ $page->mainUrl }}">
 					<h1 class="brand_logo nav_logo">
 						Blog-StaticPress
 					</h1>
@@ -42,7 +42,7 @@
 		<a class="uk-navbar-toggle uk-visible@m" data-uk-search-icon data-uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
 		<ul class="uk-navbar-nav">
 			<li>
-				<a href="./contact/">
+				<a href="{{ $page->mainUrl }}/contact/">
 					Contact Us
 				</a>
 			</li>

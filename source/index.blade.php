@@ -2,6 +2,7 @@
 pagination:
     collection: posts
     perPage: 4 {{-- Per page pages need to display --}}
+    prefix: page
 ---
 @extends('_layouts.master')
 

@@ -9,12 +9,11 @@
 
 				{{-- Content --}}
 				<article class="uk-article">
-					<h1 class="uk-h2">
+					<h1 class="uk-h2 uk-text-bold uk-margin-small-bottom">
 						{{ ucwords($page->title) }}	
-				    	</a>
 				    </h1>
 
-				    <p class="uk-article-meta">Written by 
+				    <p class="uk-article-meta uk-margin-remove-top">Written by 
 				    	<a href="#">Super User</a> on {{ date('F j, Y', $page->date) }}. 
 				    	Posted in 
 						<a href="/categories/{{ $page->categories }}" title="View posts in - {{ $page->categories }}" class="uk-text-uppercase">

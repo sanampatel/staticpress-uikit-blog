@@ -1,12 +1,12 @@
 <article class="uk-article">
 
-    <h2 class="uk-h3">
+    <h2 class="uk-text-bold uk-margin-small-bottom">
 		<a href="{{ $post->getUrl() }}" title="Read more - {{ $post->title }}" class="uk-link-reset">
 			{{ ucwords($post->title) }}	
     	</a>
     </h2>
 
-    <p class="uk-article-meta">Written by 
+    <p class="uk-article-meta uk-margin-remove-top">Written by 
     	<a href="#">Super User</a> on {{ date('F j, Y', $post->date) }}. 
     	Posted in 
 		<a href="/categories/{{ $post->categories }}" title="View posts in - {{ $post->categories }}" class="uk-text-uppercase">

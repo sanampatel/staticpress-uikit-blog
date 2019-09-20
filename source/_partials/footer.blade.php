@@ -2,10 +2,10 @@
 	<a href="#" class="uk-background-muted uk-padding-small uk-text-right">&uparrow;</a>
 </p>
 <footer class="blog-footer uk-background-muted uk-padding-small">
-	<div class="uk-container uk-text-center">
-		<small>Made with 
-			<span class="heart">&#x2665;</span>
-			Build on 
+	<div class="uk-container uk-text-center uk-text-small">
+		<span class="span">
+		    Made with <i class="fa pulse">&#x2665;</i>
+		    Built on 
 			<a class="text-dark" href="https://tailwindcss.com/" target="_blank">
 				<span class="text-bold">Tailwindcss</span>
 			</a> 
@@ -13,7 +13,7 @@
 			<a class="text-dark" href="https://staticpress.io" target="_blank">
 				<span class="text-bold">StaticPress</span>
 			</a>
-		</small>
+		</span>
 	</div>
 </footer>
 
