@@ -6,8 +6,8 @@
 		<span class="span">
 		    Made with <i class="fa pulse">&#x2665;</i>
 		    Built on 
-			<a class="text-dark" href="https://tailwindcss.com/" target="_blank">
-				<span class="text-bold">Tailwindcss</span>
+			<a class="text-dark" href="https://getuikit.com/" target="_blank">
+				<span class="text-bold">UIKIT</span>
 			</a> 
 			using 
 			<a class="text-dark" href="https://staticpress.io" target="_blank">
