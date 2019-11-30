@@ -6,6 +6,12 @@ pagination:
 ---
 @extends('_layouts.master')
 
+@section('head')
+    <title>{{ $settings->setting->seotitle}} | {{ $page->sitename }}</title> 
+    <meta name="keywords" content="{{ $settings->setting->seokeywords }}">
+    <meta name="description" content="{{ $settings->setting->seodescription }}">
+@endsection
+
 @section('content') 
 	{{-- Featured post --}}
 	@if ($page->featured = true)
