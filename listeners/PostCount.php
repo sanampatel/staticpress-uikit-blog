@@ -25,19 +25,20 @@ class PostCount
 
 $post = <<<EOF
 ---
-title: Features
-authorname: StaticPress
+---
+title: First Post
+authorname: Hence media
 date: 2019-07-06T00:00:00.000Z
-seotitle: Do not delete this post
-seokeywords: 'StaticPress, Warning, First Post'
-seodescription: >-
-  This is deafult post of StaticPress do not delete else it'll stop working!
+seotitle: Features of StaticPress
+seokeywords: 'Demo, StaticPress, First Post, Demo'
+seodescription: This is deafult post of StaticPress do not delete else it'll stop working!
 tags:
   - demo
-  - cms
-categories: staticpress
-image: /source/images/features-large.png
-comments: false
+categories: issues
+image: 
+comments: true
+isPosts: true
+description: This is deafult post of StaticPress do not delete else it'll stop working!
 ---
 
 This is deafult post of StaticPress do not delete else it'll stop working!
